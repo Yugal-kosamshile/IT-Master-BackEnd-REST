@@ -25,7 +25,8 @@ import com.online.course.model.Course;
 import com.online.course.model.User;
 import com.online.course.service.CourseService; 
 
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = {"http://localhost:5173" ,
+    					"https://frontend-react-h7ib.onrender.com"})
 @RestController
 @RequestMapping("/api")
 public class AdminController {

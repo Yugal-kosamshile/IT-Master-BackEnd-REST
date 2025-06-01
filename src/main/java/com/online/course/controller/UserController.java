@@ -25,7 +25,8 @@ import com.online.course.service.UserService;
 import jakarta.servlet.http.HttpSession;
 
 
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = {"http://localhost:5173" ,
+						"https://frontend-react-h7ib.onrender.com"})
 @RestController
 @RequestMapping("/api")
 public class UserController {
