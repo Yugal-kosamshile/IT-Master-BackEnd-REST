@@ -26,7 +26,8 @@ import jakarta.servlet.http.HttpSession;
 
 
 @CrossOrigin(origins = {"http://localhost:5173" ,
-						"https://it-master.onrender.com"})
+						"https://it-master.onrender.com",
+                        "https://it-master.vercel.app"})
 @RestController
 @RequestMapping("/api")
 public class UserController {
